@@ -114,7 +114,7 @@ class RenderMaze():
 				if(not self.simple_maze[contX][contY]['BOTTOM']):
 					aux_maze[i+1][j] = 1
 				contY += 1
-			if(contY >= 5):
+			if(contY >= self.size_maze[1]):
 				contY = 0
 			contX += 1
 
